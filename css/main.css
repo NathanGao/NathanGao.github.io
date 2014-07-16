@@ -6,7 +6,7 @@ body {
 height: 100%;
 width: 100%;
 
-	font-family: calluna_sansregular, sans-serif;
+	font-family: latoregular, sans-serif;
 	font-size: 16px;
 	line-height: 1.42857143;
 	background-color: #FFF;
@@ -31,7 +31,7 @@ width: 100%;
 
 .headertitle {
   position:static;
-  font-family: crete_roundregular, sans-serif;
+  font-family: latoregular, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 2.7vw;
@@ -43,7 +43,7 @@ width: 100%;
   width:100%;
   top: 55%;
   margin-left: -1.5%;
-  font-family: calluna_sansregular, sans-serif;
+  font-family: latoregular, sans-serif;
   font-size: 12px;
   font-size: 1.3vw;
   line-height: 1.45;
@@ -72,12 +72,12 @@ width: 100%;
 .bodytitle{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-family: calluna_sansregular, sans-serif;
+	font-family: latoregular, sans-serif;
 	font-size: 25px;
 }
 
 .bodytext{
-	font-family: calluna_sansregular, sans-serif;
+	font-family: latoregular, sans-serif;
 	font-size: 18px;
 }
 
