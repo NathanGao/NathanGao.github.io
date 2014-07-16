@@ -38,7 +38,7 @@ $(window).scroll(function(){
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').animate({fontSize : '1.5vmin'}, 20);
             $nav.data('size','small').animate({paddingLeft: '30%'}, 50);
-            $nav.data('size','small').animate({top: '32%'}, 50);
+            $nav.data('size','small').animate({top: '40%'}, 50);
         }
 
     } else {
