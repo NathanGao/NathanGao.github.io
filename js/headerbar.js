@@ -8,7 +8,7 @@ $(function(){
 
 $(window).scroll(function(){
     var $nav = $('#header_nav');
-    if ($('body html').scrollTop() > 70) {
+    if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
             $nav.data('size','small').animate({height:'65px'}, 140);
@@ -23,7 +23,7 @@ $(window).scroll(function(){
     }
 
     var $nav = $('.headertitle');
-    if ($('body html').scrollTop() > 70) {
+    if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').animate({fontSize : '2.0vw'}, 60);
         }
@@ -34,11 +34,11 @@ $(window).scroll(function(){
     }
 
     var $nav = $('.headertext');
-    if ($('body html').scrollTop() > 70) {
+    if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').animate({fontSize : '1vw'}, 30);
             $nav.data('size','small').animate({paddingLeft: '30%'}, 60);
-            $nav.data('size','small').animate({top: '35%'}, 60);
+            $nav.data('size','small').animate({top: '28%'}, 60);
         }
 
     } else {
