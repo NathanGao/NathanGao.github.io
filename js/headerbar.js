@@ -11,13 +11,13 @@ $(window).scroll(function(){
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
-            $nav.data('size','small').animate({height:'65px'}, 140);
+            $nav.data('size','small').animate({height:'8vh'}, 140);
             $nav.data('size','small').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,.5)'}, 40);/*x y blur border?*/
         }
     } else {
         if ($nav.data('size') == 'small') {
             $nav.data('size','big').stop();
-            $nav.data('size','big').animate({height:'125px'}, 40);
+            $nav.data('size','big').animate({height:'12vh'}, 40);
             $nav.data('size','big').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,1)'}, 100);/*x y blur border?*/
         }
     }

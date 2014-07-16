@@ -44,7 +44,7 @@ width: 100%;
 /*Header bar classes: name and brief description*/
 #header_nav {
     width:44.3%;
-    height:4.5vh;
+    height:12vh;
     max-height:125px;
     background-color: #ffffff;
     position:fixed;
