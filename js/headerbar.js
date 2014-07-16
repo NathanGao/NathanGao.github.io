@@ -44,7 +44,7 @@ $(window).scroll(function(){
     } else {
         if ($nav.data('size') == 'small') {
             // $nav.data('size','big').animate({fontSize : '14px'}, 40);
-            $nav.data('size','big').animate({top: '58%'}, 50);
+            $nav.data('size','big').animate({top: '60%'}, 50);
             $nav.data('size','big').animate({paddingLeft: '0%'}, 50);
             $nav.data('size','big').animate({fontSize : '2.0vmin'}, 20);
 

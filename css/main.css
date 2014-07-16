@@ -66,11 +66,11 @@ width: 100%;
 .headertext {
   position:absolute;
   width:120%;
-  top: 58%;
+  top: 60%;
   margin-left: -1.5%;
   font-family: latoregular, sans-serif;
 /*  font-size: 12px;
-*/  font-size: 1.5vmin;
+*/  font-size: 2.0vmin;
   line-height: 1.45;
 }
 
