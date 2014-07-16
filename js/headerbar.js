@@ -11,7 +11,7 @@ $(window).scroll(function(){
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
-            $nav.data('size','small').animate({height:'8vh'}, 140);
+            $nav.data('size','small').animate({height:'6vh'}, 140);
             $nav.data('size','small').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,.5)'}, 40);/*x y blur border?*/
         }
     } else {
@@ -25,18 +25,18 @@ $(window).scroll(function(){
     var $nav = $('.headertitle');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '2.0vw'}, 60);
+            $nav.data('size','small').animate({fontSize : '2.0vmin'}, 60);
         }
     } else {
         if ($nav.data('size') == 'small') {
-            $nav.data('size','big').animate({fontSize : '2.5vw'}, 100);
+            $nav.data('size','big').animate({fontSize : '2.5vmin'}, 100);
         }
     }
 
     var $nav = $('.headertext');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '1vw'}, 20);
+            $nav.data('size','small').animate({fontSize : '1vmin'}, 20);
             $nav.data('size','small').animate({paddingLeft: '30%'}, 50);
             $nav.data('size','small').animate({top: '32%'}, 50);
         }
@@ -46,7 +46,7 @@ $(window).scroll(function(){
             // $nav.data('size','big').animate({fontSize : '14px'}, 40);
             $nav.data('size','big').animate({top: '55%'}, 50);
             $nav.data('size','big').animate({paddingLeft: '0%'}, 50);
-            $nav.data('size','big').animate({fontSize : '1.3vw'}, 20);
+            $nav.data('size','big').animate({fontSize : '1.3vmin'}, 20);
 
         }
     }
