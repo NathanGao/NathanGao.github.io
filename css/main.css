@@ -44,7 +44,8 @@ width: 100%;
 /*Header bar classes: name and brief description*/
 #header_nav {
     width:44.3%;
-    height:125px;
+    height:4.5vh;
+    max-height:125px;
     background-color: #ffffff;
     position:fixed;
     top:0;
@@ -92,7 +93,7 @@ width: 100%;
     color:#ccc;
 }
 
-/*Body layout classes: all body related layouts*/
+/*Body layout classes: all other body related layouts*/
 .bodytitle{
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -124,8 +125,6 @@ width: 100%;
 
 
 .thumb {
-
-
 	width: 100%;
 	height: 100%;
 box-shadow: 5px 5px #2c3e50; /*428bca*/
