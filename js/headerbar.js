@@ -29,7 +29,7 @@ $(window).scroll(function(){
         }
     } else {
         if ($nav.data('size') == 'small') {
-            $nav.data('size','big').animate({fontSize : '7.0vmin'}, 100);
+            $nav.data('size','big').animate({fontSize : '6.0vmin'}, 100);
         }
     }
 
