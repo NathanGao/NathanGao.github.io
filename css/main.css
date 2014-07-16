@@ -1,23 +1,23 @@
 
 @font-face {
   font-family: CreteClean;
-  src: url(http://NathanGao.github.io/fonts/CreteRound-Regular.otf) format(opentype);
+  src: url('http://NathanGao.github.io/fonts/CreteRound-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: CallunaSansClean;
-  src: url(http://NathanGao.github.io/fonts/CallunaSans-Regular.otf) format(opentype);
+  src: url('http://NathanGao.github.io/fonts/CallunaSans-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: LatoBoldClean;
-  src: url(http://NathanGao.github.io/fonts/Lato-Bold.ttf) format(truetype);
+  src: url('http://NathanGao.github.io/fonts/Lato-Bold.ttf') format('truetype');
 }
 
 
 @font-face {
   font-family: LatoRegularClean;
-  src: url(http://NathanGao.github.io/fonts/Lato-Regular.ttf) format(truetype);
+  src: url('http://NathanGao.github.io/fonts/Lato-Regular.ttf') format('truetype');
 }
 
 
