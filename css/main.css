@@ -6,7 +6,7 @@ body {
 height: 100%;
 width: 100%;
 
-	font-family: CallunaSans, sans-serif;
+	font-family: calluna_sansregular, sans-serif;
 	font-size: 16px;
 	line-height: 1.42857143;
 	background-color: #FFF;
@@ -43,7 +43,7 @@ width: 100%;
   width:100%;
   top: 55%;
   margin-left: -1.5%;
-  font-family: CallunaSans, sans-serif;
+  font-family: calluna_sansregular, sans-serif;
   font-size: 12px;
   font-size: 1.3vw;
   line-height: 1.45;
