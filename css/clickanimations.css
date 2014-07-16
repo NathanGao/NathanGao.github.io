@@ -1,0 +1,61 @@
+
+/*PICTURE Click to enlarge animations*/
+.clicky {
+  /** Offset the Position **/
+  position: relative;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.clicky:active {
+  /** Remove 3D Block Effect on Click **/
+  box-shadow: none;
+  top: 5px;
+  left: 5px;
+  margin-bottom: 10px;
+}
+
+.clicky:hover {
+  opacity: 1;
+}
+
+.clicky:active,
+.clicky:focus {
+  /** Remove Chrome's Ugly Yellow Outline **/
+  outline: 0;
+}nn
+
+/** Transitions **/
+.clicky-transition {
+  -webkit-transition: .1s top, .1s margin-bottom, .1s box-shadow;
+  transition: .1s top, .1s margin-bottom, .1s box-shadow;
+}
+
+.clicky-transition:active {
+  box-shadow: 0 0 0 #6B2A4A;
+}
+
+.clicky-transition-up-only:active {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.clicky-transition-down-only {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.clicky-transition-down-only:active {
+  -webkit-transition: .1s top, .1s margin-bottom, .1s box-shadow;
+  transition: .1s top, .1s margin-bottom, .1s box-shadow;
+}
+
+
+
+
+.picture:active .mask{
+  /** Remove 3D Block Effect on Click **/
+  top: 145px;
+  left: 20px;
+}
