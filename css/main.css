@@ -1,3 +1,27 @@
+
+@font-face {
+  font-family: CreteClean;
+  src: url(http://NathanGao.github.io/fonts/CreteRound-Regular.otf) format(opentype);
+}
+
+@font-face {
+  font-family: CallunaSansClean;
+  src: url(http://NathanGao.github.io/fonts/CallunaSans-Regular.otf) format(opentype);
+}
+
+@font-face {
+  font-family: LatoBoldClean;
+  src: url(http://NathanGao.github.io/fonts/Lato-Bold.ttf) format(truetype);
+}
+
+
+@font-face {
+  font-family: LatoRegularClean;
+  src: url(http://NathanGao.github.io/fonts/Lato-Regular.ttf) format(truetype);
+}
+
+
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	padding-top: 50px;
@@ -31,7 +55,7 @@ width: 100%;
 
 .headertitle {
   position:static;
-  font-family: latoregular, sans-serif;
+  font-family: LatoRegularClean, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 2.7vw;
