@@ -36,17 +36,17 @@ $(window).scroll(function(){
     var $nav = $('.headertext');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '1vw'}, 30);
-            $nav.data('size','small').animate({paddingLeft: '30%'}, 60);
-            $nav.data('size','small').animate({top: '32%'}, 60);
+            $nav.data('size','small').animate({fontSize : '1vw'}, 20);
+            $nav.data('size','small').animate({paddingLeft: '30%'}, 50);
+            $nav.data('size','small').animate({top: '32%'}, 50);
         }
 
     } else {
         if ($nav.data('size') == 'small') {
             // $nav.data('size','big').animate({fontSize : '14px'}, 40);
-            $nav.data('size','big').animate({top: '55%'}, 80);
-            $nav.data('size','big').animate({paddingLeft: '0%'}, 80);
-            $nav.data('size','big').animate({fontSize : '1.3vw'}, 30);
+            $nav.data('size','big').animate({top: '55%'}, 50);
+            $nav.data('size','big').animate({paddingLeft: '0%'}, 50);
+            $nav.data('size','big').animate({fontSize : '1.3vw'}, 20);
 
         }
     }
