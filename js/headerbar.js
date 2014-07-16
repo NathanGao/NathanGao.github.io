@@ -29,7 +29,7 @@ $(window).scroll(function(){
         }
     } else {
         if ($nav.data('size') == 'small') {
-            $nav.data('size','big').animate({fontSize : '2.7vw'}, 100);
+            $nav.data('size','big').animate({fontSize : '2.5vw'}, 100);
         }
     }
 
@@ -38,7 +38,7 @@ $(window).scroll(function(){
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').animate({fontSize : '1vw'}, 30);
             $nav.data('size','small').animate({paddingLeft: '30%'}, 60);
-            $nav.data('size','small').animate({top: '25%'}, 60);
+            $nav.data('size','small').animate({top: '28%'}, 60);
         }
 
     } else {

@@ -58,7 +58,7 @@ width: 100%;
   font-family: LatoRegularClean, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
-  font-size: 2.7vw;
+  font-size: 2.5vw;
   margin-left: -2%;
 }
 
@@ -68,8 +68,8 @@ width: 100%;
   top: 55%;
   margin-left: -1.5%;
   font-family: latoregular, sans-serif;
-  font-size: 12px;
-  font-size: 1.3vw;
+/*  font-size: 12px;
+*/  font-size: 1.3vw;
   line-height: 1.45;
 }
 
