@@ -45,7 +45,7 @@ width: 100%;
 #header_nav {
     width:44.3%;
     height:14vh;
-    min-height: 60px;
+    min-height: 55px;
     max-height:125px;
     background-color: #ffffff;
     position:fixed;
