@@ -17,7 +17,7 @@ $(window).scroll(function(){
     } else {
         if ($nav.data('size') == 'small') {
             $nav.data('size','big').stop();
-            $nav.data('size','big').animate({height:'12vh'}, 40);
+            $nav.data('size','big').animate({height:'14vh'}, 40);
             $nav.data('size','big').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,1)'}, 100);/*x y blur border?*/
         }
     }
