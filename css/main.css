@@ -202,6 +202,9 @@ box-shadow: 5px 5px #2c3e50; /*428bca*/
 
 }
 
+.darken {
+  opacity: .3;
+}
 
 p {
 	margin-top: 20px;
