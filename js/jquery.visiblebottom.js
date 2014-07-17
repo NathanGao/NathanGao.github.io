@@ -46,10 +46,6 @@ win.scroll(function(event) {
     if (el.visible(true)) {
       el.addClass("come-in"); 
     } 
-    else if (el.visible(false)) {
-      el.addClass("darken"); 
-    } 
-    
   });
   
 });

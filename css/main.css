@@ -202,9 +202,12 @@ box-shadow: 5px 5px #2c3e50; /*428bca*/
 
 }
 
+<<<<<<< HEAD
 .darken {
   background-color: rgba(144, 144, 144,.5);
 }
+=======
+>>>>>>> parent of 12dbc98... darken section test
 
 p {
 	margin-top: 20px;
