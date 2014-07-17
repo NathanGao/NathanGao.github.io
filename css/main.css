@@ -37,7 +37,7 @@ width: 100%;
 }
 
 .page-container {
-	background-color: #ffffff;
+	background-color: #000000;
 }
 
 
@@ -57,7 +57,7 @@ width: 100%;
 
 .headertitle {
   position:static;
-  font-family: LatoRegularClean, sans-serif;
+  font-family: LatoBoldClean, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 6.0vmin;
