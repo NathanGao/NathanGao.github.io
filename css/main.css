@@ -131,6 +131,19 @@ width: 100%;
 box-shadow: 5px 5px #2c3e50; /*428bca*/
 }
 
+
+.leftpic {
+
+}
+
+.midpic{
+  margin-top: 20px;
+}
+
+.rightpic {
+  margin-right: 20px;
+}
+
 .picture {
 
 }
