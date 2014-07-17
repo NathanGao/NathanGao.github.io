@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	// JS for highlight selected button
 	$(function() {
-	    $("li a").click(function() {
+	    $("li").click(function() {
 	      // remove classes from all
 	      $("li").removeClass("active");
 	      // add class to the one we clicked
