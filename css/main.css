@@ -35,7 +35,7 @@ body {
 height: 100%;
 width: 100%;
 
-	font-family: Molengo, sans-serif;
+	font-family: AkzidenzGrotesk, sans-serif;
 	font-size: 16px;
 	line-height: 1.42857143;
 	background-color: #FFF;
@@ -62,7 +62,7 @@ width: 100%;
 
 .headertitle {
   position:static;
-  font-family: Molengo, sans-serif;
+  font-family: AkzidenzGrotesk, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 6.0vmin;
@@ -74,7 +74,7 @@ width: 100%;
   width:120%;
   top: 60%;
   margin-left: -1.5%;
-  font-family: Molengo, sans-serif;
+  font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
 */  font-size: 2.0vmin;
   line-height: 1.45;
@@ -103,12 +103,12 @@ width: 100%;
 .bodytitle{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-family: Molengo, sans-serif;
+	font-family: AkzidenzGrotesk, sans-serif;
 	font-size: 25px;
 }
 
 .bodytext{
-	font-family: Molengo, sans-serif;
+	font-family: AkzidenzGrotesk, sans-serif;
 	font-size: 18px;
 }
 
