@@ -24,7 +24,10 @@
   font-family: AkzidenzGrotesk;
   src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Regular.otf') format('opentype');
 }
-
+@font-face {
+  font-family: AkzidenzGroteskMedium;
+  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Medium.otf') format('opentype');
+}
 
 
 /* Move down content because we have a fixed navbar that is 50px tall */
@@ -101,9 +104,9 @@ width: 100%;
 
 /*Body layout classes: all other body related layouts*/
 .bodytitle{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-family: AkzidenzGrotesk, sans-serif;
+  display:block;
+	margin: 10px auto;
+	font-family: AkzidenzGroteskMedium, sans-serif;
 	font-size: 25px;
 }
 
@@ -120,12 +123,6 @@ width: 100%;
 	padding-top: 40px;
 }
 
-.bodyshelltemp{
-  position:relative;
-    left:0%;
-  padding-left: 20px;
-  padding-top: 40px;
-}
 
 .divider {
 	border: 0;
