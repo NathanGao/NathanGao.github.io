@@ -44,6 +44,10 @@ width: 100%;
 	background-color: #FFF;
 }
 
+p {
+  margin: 20px auto;
+}
+
 .page-container {
 	background-color: #ffffff;
 }
@@ -103,12 +107,23 @@ width: 100%;
 }
 
 /*Body layout classes: all other body related layouts*/
-.bodytitle{
+.bodytitle {
   display:block;
+  text-align:center;
 	margin: 10px auto;
 	font-family: AkzidenzGroteskMedium, sans-serif;
 	font-size: 25px;
 }
+
+.bodysubtitle {
+  display:block;
+  text-align:center;
+  width: 30%;
+  margin: 10px auto;
+  font-family: AkzidenzGroteskMedium, sans-serif;
+  font-size: 15px;
+}
+
 
 .bodytext{
 	font-family: AkzidenzGrotesk, sans-serif;
@@ -125,8 +140,9 @@ width: 100%;
 
 
 .divider {
-	border: 0;
+
 	height: 50px;
+  width:98%;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 		padding-bottom: 30px;
