@@ -45,7 +45,7 @@ width: 100%;
 }
 
 p {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .page-container {
@@ -56,7 +56,7 @@ p {
 /*Header bar classes: name and brief description*/
 #header_nav {
     width:44.3%;
-    height:14vh;
+    height:15%;
     min-height: 55px;
     max-height:125px;
     background-color: #ffffff;
@@ -69,10 +69,10 @@ p {
 
 .headertitle {
   position:static;
-  font-family: AkzidenzGrotesk, sans-serif;
+  font-family: AkzidenzGroteskMedium, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
-  font-size: 6.0vmin;
+  font-size: 300%;
   margin-left: -2%;
 }
 
@@ -83,7 +83,7 @@ p {
   margin-left: -1.5%;
   font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
-*/  font-size: 2.0vmin;
+*/  font-size: 120%;
   line-height: 1.45;
 }
 
@@ -118,10 +118,10 @@ p {
 .bodysubtitle {
   display:block;
   text-align:center;
-  width: 30%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 20px auto;
   font-family: AkzidenzGroteskMedium, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
@@ -140,7 +140,6 @@ p {
 
 
 .divider {
-
 	height: 50px;
   width:98%;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -153,8 +152,34 @@ p {
 	width: 100%;
 	height: 100%;
 box-shadow: 5px 5px #2c3e50; /*428bca*/
+
+border: 1px solid rgba(0, 0, 0, 1);
+
+    -moz-box-sizing:    border-box;
+   -webkit-box-sizing: border-box;
+   -o-box-sizing: border-box;
+    box-sizing:        border-box;
+
 }
 
+.thumbcaptionbox {
+height:50px;
+}
+
+.thumbcaptiontextbox{
+position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+
+.thumbcaption {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+
+    padding: auto 0;
+}
 
 .leftpic {
 
@@ -174,9 +199,9 @@ box-shadow: 5px 5px #2c3e50; /*428bca*/
 
 .mask {
 	position:absolute;
-    top:50%;
+    top: 70%;
     width:0%;
-    height:40%;
+    height:20%;
     background-color:rgba(0, 0, 0, 0.7);
     pointer-events:none;
 
@@ -225,11 +250,6 @@ box-shadow: 5px 5px #2c3e50; /*428bca*/
 .project {
 
 }
-
-
-p {
-	margin-top: 20px;
-} /*in addition to bootstrap.css*/
 
 
 /*Body animation and effects*/
