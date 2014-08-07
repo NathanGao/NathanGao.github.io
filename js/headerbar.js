@@ -40,7 +40,7 @@ $(window).scroll(function(){
             $nav.data('size','small').animate({width: '70%'}, 10);
             $nav.data('size','small').animate({left: 'auto'}, 10);
             $nav.data('size','small').animate({right: '1px'}, 10); 
-            $nav.data('size','small').animate({top: '20px'}, 10);
+            $nav.data('size','small').animate({top: '26px'}, 10);
 
         }
 
