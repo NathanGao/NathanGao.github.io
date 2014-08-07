@@ -11,7 +11,7 @@ $(window).scroll(function(){
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
-            $nav.data('size','small').animate({height:'60px'}, 100);
+            $nav.data('size','small').animate({height:'70px'}, 100);
             $nav.data('size','small').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,.5)'}, 40);/*x y blur border?*/
         }
     } else {

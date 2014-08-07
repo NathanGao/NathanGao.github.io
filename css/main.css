@@ -341,18 +341,10 @@ position: relative;
 
 @media (max-device-width: 407px) {
   
-  body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 20%;
-    height: 100%;
-    width: 100%;
-
-    font-family: AkzidenzGrotesk, sans-serif;
-    font-size: 24px;
-    line-height: 1.42857143;
-    background-color: #FFF;
-  }
+.bodytext{
+  font-family: AkzidenzGrotesk, sans-serif;
+  font-size: 25px;
+}
 
   #header_nav {
     width:100%;
