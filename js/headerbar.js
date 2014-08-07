@@ -25,11 +25,11 @@ $(window).scroll(function(){
     var $nav = $('.headertitle');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '3.5vmin'}, 40);
+            $nav.data('size','small').animate({fontSize : '200%'}, 40);
         }
     } else {
         if ($nav.data('size') == 'small') {
-            $nav.data('size','big').animate({fontSize : '6.0vmin'}, 100);
+            $nav.data('size','big').animate({fontSize : '300%'}, 100);
         }
     }
 
