@@ -55,7 +55,7 @@ p {
 
 /*Header bar classes: name and brief description*/
 #header_nav {
-    width:44.3%;
+    width:51%;
     height: 125px;
     min-height: 55px;
     max-height:125px;
