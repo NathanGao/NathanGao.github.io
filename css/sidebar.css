@@ -22,7 +22,7 @@
 }
 
 /* collapsed sidebar styles */
-@media (device-width: 767px), (max-width: 767px) {
+@media (max-device-width: 407px), (max-width: 767px) {
   .row-offcanvas {
     position: relative;
     -webkit-transition: all 0.25s ease-out;
