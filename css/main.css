@@ -56,7 +56,7 @@ p {
 /*Header bar classes: name and brief description*/
 #header_nav {
     width:44.3%;
-    height:15%;
+    height: 125px;
     min-height: 55px;
     max-height:125px;
     background-color: #ffffff;
@@ -67,20 +67,27 @@ p {
     z-index:50;
 }
 
+.headertitlebox{
+  margin-left: -16px
+}
+
+.headertextbox {
+  margin-left: -14px
+
+}
+
 .headertitle {
   position:static;
   font-family: AkzidenzGroteskMedium, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 300%;
-  margin-left: -2%;
 }
 
 .headertext {
   position:absolute;
-  width:120%;
+  width:100%;
   top: 60%;
-  margin-left: -1.5%;
   font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
 */  font-size: 120%;

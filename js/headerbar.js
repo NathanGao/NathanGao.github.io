@@ -11,13 +11,13 @@ $(window).scroll(function(){
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
-            $nav.data('size','small').animate({height:'8%'}, 140);
+            $nav.data('size','small').animate({height:'60px'}, 100);
             $nav.data('size','small').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,.5)'}, 40);/*x y blur border?*/
         }
     } else {
         if ($nav.data('size') == 'small') {
             $nav.data('size','big').stop();
-            $nav.data('size','big').animate({height:'15%'}, 40);
+            $nav.data('size','big').animate({height:'125px'}, 40);
             $nav.data('size','big').animate({boxShadow : '0 15px 0px 0px rgba(0,0,0,1)'}, 100);/*x y blur border?*/
         }
     }
@@ -25,7 +25,7 @@ $(window).scroll(function(){
     var $nav = $('.headertitle');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '3.5vmin'}, 60);
+            $nav.data('size','small').animate({fontSize : '3.5vmin'}, 40);
         }
     } else {
         if ($nav.data('size') == 'small') {
@@ -36,17 +36,23 @@ $(window).scroll(function(){
     var $nav = $('.headertext');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '90%'}, 20);
-            $nav.data('size','small').animate({paddingLeft: '24%'}, 50);
-            $nav.data('size','small').animate({top: '28%'}, 50);
+            $nav.data('size','small').animate({fontSize : '90%'}, 10);
+            $nav.data('size','small').animate({width: '60%'}, 10);
+            $nav.data('size','small').animate({left: 'auto'}, 10);
+            $nav.data('size','small').animate({right: '1px'}, 10); 
+            $nav.data('size','small').animate({top: '20px'}, 10);
+
         }
 
     } else {
         if ($nav.data('size') == 'small') {
             // $nav.data('size','big').animate({fontSize : '14px'}, 40);
-            $nav.data('size','big').animate({top: '60%'}, 50);
-            $nav.data('size','big').animate({paddingLeft: '0%'}, 50);
-            $nav.data('size','big').animate({fontSize : '120%'}, 20);
+            $nav.data('size','big').animate({top: '80px'}, 10);   
+            $nav.data('size','big').animate({width: '100%'}, 20);    
+            $nav.data('size','big').animate({fontSize : '120%'}, 50);                                
+            $nav.data('size','big').animate({left: '1px'}, 20);            
+            $nav.data('size','big').animate({right: 'auto'}, 20);  
+
 
         }
     }
