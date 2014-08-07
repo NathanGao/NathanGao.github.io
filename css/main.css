@@ -40,6 +40,12 @@
   src: url('http://NathanGao.github.io/fonts/Raleway-Regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: Tisa;
+  src: url('http://NathanGao.github.io/fonts/TisaOT.otf') format('opentype');
+}
+
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	padding-top: 50px;
@@ -48,7 +54,7 @@ body {
   height: 100%;
   width: 100%;
 
-	font-family: Raleway, sans-serif;
+	font-family: Tisa, sans-serif;
 	font-size: 20px;
   color: #444;
 	line-height: 1.42857143;
@@ -99,7 +105,6 @@ p {
   position:absolute;
   width:100%;
   top: 60%;
-  font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
 */  font-size: 1em;
   line-height: 1.45;
@@ -130,7 +135,6 @@ p {
   display:block;
   text-align:center;
 	margin: 10px auto;
-	font-family: Raleway, sans-serif;
 	font-size: 1.3em;
 }
 
@@ -139,13 +143,11 @@ p {
   text-align:center;
   width: 100%;
   margin: 20px auto;
-  font-family: Raleway, sans-serif;
   font-size: 1.1em;
 }
 
 
 .bodytext{
-	font-family: Raleway, sans-serif;
 	font-size: 1em;
 }
 
@@ -389,7 +391,6 @@ body {
   }
 
   .bodytext{
-    font-family: AkzidenzGrotesk, sans-serif;
     font-size: 1.3em;
   }
 
