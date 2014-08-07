@@ -365,7 +365,7 @@ body {
     text-align:center;
     margin: 10px auto;
     font-family: AkzidenzGroteskMedium, sans-serif;
-    font-size: 50px;
+    font-size: 2em;
   }
 
   .bodysubtitle {
@@ -374,8 +374,14 @@ body {
     width: 100%;
     margin: 20px auto;
     font-family: AkzidenzGroteskMedium, sans-serif;
-    font-size: 45px;
+    font-size: 1.5em;
   }
+
+  .bodytext{
+    font-family: AkzidenzGrotesk, sans-serif;
+    font-size: 1.3em;
+  }
+
   .bodyshell{
     position:absolute;
       left: 1%;
