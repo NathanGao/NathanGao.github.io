@@ -36,8 +36,8 @@ $(window).scroll(function(){
     var $nav = $('.headertext');
     if ($('body').scrollTop() > 70) {
         if ($nav.data('size') == 'big') {
-            $nav.data('size','small').animate({fontSize : '90%'}, 10);
-            $nav.data('size','small').animate({width: '60%'}, 10);
+            $nav.data('size','small').animate({fontSize : '.8vw'}, 10);
+            $nav.data('size','small').animate({width: '70%'}, 10);
             $nav.data('size','small').animate({left: 'auto'}, 10);
             $nav.data('size','small').animate({right: '1px'}, 10); 
             $nav.data('size','small').animate({top: '20px'}, 10);
@@ -49,7 +49,7 @@ $(window).scroll(function(){
             // $nav.data('size','big').animate({fontSize : '14px'}, 40);
             $nav.data('size','big').animate({top: '80px'}, 10);   
             $nav.data('size','big').animate({width: '100%'}, 20);    
-            $nav.data('size','big').animate({fontSize : '120%'}, 50);                                
+            $nav.data('size','big').animate({fontSize : '1.2vw'}, 50);                                
             $nav.data('size','big').animate({left: '1px'}, 20);            
             $nav.data('size','big').animate({right: 'auto'}, 20);  
 

@@ -90,7 +90,7 @@ p {
   top: 60%;
   font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
-*/  font-size: 120%;
+*/  font-size: 1.2vw;
   line-height: 1.45;
 }
 
