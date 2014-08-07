@@ -22,13 +22,23 @@
 
 @font-face {
   font-family: AkzidenzGrotesk;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Regular.otf') format('opentype');
-}
-@font-face {
-  font-family: AkzidenzGroteskMedium;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Medium.otf') format('opentype');
+  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Light.otf') format('opentype');
 }
 
+@font-face {
+  font-family: AkzidenzGrotesk;
+  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url('http://NathanGao.github.io/fonts/Quicksand-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('http://NathanGao.github.io/fonts/Raleway-Regular.otf') format('opentype');
+}
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
@@ -38,10 +48,11 @@ body {
   height: 100%;
   width: 100%;
 
-	font-family: AkzidenzGrotesk, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 20px;
+  color: #444;
 	line-height: 1.42857143;
-	background-color: #FFF;
+	background-color: #ecf0f1;
 }
 
 p {
@@ -63,7 +74,7 @@ p {
     position:fixed;
     top:0;
     left:37.05%;
-    box-shadow: 0px 15px rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px rgba(0, 0, 0, 1);
     z-index:50;
 }
 
@@ -119,7 +130,7 @@ p {
   display:block;
   text-align:center;
 	margin: 10px auto;
-	font-family: AkzidenzGroteskMedium, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 1.3em;
 }
 
@@ -128,13 +139,13 @@ p {
   text-align:center;
   width: 100%;
   margin: 20px auto;
-  font-family: AkzidenzGroteskMedium, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 1.1em;
 }
 
 
 .bodytext{
-	font-family: AkzidenzGrotesk, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 1em;
 }
 
@@ -256,7 +267,7 @@ position: relative;
 }
 
 .project {
-
+  background-color:'#111111';
 }
 
 
