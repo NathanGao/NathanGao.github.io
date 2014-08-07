@@ -356,7 +356,22 @@ position: relative;
     box-shadow: 0px 15px rgba(0, 0, 0, 1);
 
   }
+  .bodytitle {
+    display:block;
+    text-align:center;
+    margin: 10px auto;
+    font-family: AkzidenzGroteskMedium, sans-serif;
+    font-size: 60px;
+  }
 
+  .bodysubtitle {
+    display:block;
+    text-align:center;
+    width: 100%;
+    margin: 20px auto;
+    font-family: AkzidenzGroteskMedium, sans-serif;
+    font-size: 55px;
+  }
   .bodyshell{
     position:absolute;
       left: 1%;
