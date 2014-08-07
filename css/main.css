@@ -39,7 +39,7 @@ body {
   width: 100%;
 
 	font-family: AkzidenzGrotesk, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.42857143;
 	background-color: #FFF;
 }
@@ -81,7 +81,7 @@ p {
   font-family: AkzidenzGroteskMedium, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
-  font-size: 300%;
+  font-size: 3em;
 }
 
 .headertext {
@@ -90,7 +90,7 @@ p {
   top: 60%;
   font-family: AkzidenzGrotesk, sans-serif;
 /*  font-size: 12px;
-*/  font-size: 1.4vw;
+*/  font-size: 1em;
   line-height: 1.45;
 }
 
@@ -120,7 +120,7 @@ p {
   text-align:center;
 	margin: 10px auto;
 	font-family: AkzidenzGroteskMedium, sans-serif;
-	font-size: 25px;
+	font-size: 1.3em;
 }
 
 .bodysubtitle {
@@ -129,13 +129,13 @@ p {
   width: 100%;
   margin: 20px auto;
   font-family: AkzidenzGroteskMedium, sans-serif;
-  font-size: 20px;
+  font-size: 1.1em;
 }
 
 
 .bodytext{
 	font-family: AkzidenzGrotesk, sans-serif;
-	font-size: 17px;
+	font-size: 1em;
 }
 
 
@@ -341,9 +341,13 @@ position: relative;
 
 @media (max-device-width: 407px) {
   
+body {
+  font-size: 40px;
+}
+
 .bodytext{
-  font-family: AkzidenzGrotesk, sans-serif;
-  font-size: 45px;
+/*  font-family: AkzidenzGrotesk, sans-serif;
+  font-size: 45px;*/
 }
 
   #header_nav {
