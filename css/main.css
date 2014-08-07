@@ -301,7 +301,7 @@ position: relative;
 @media (max-width: 767px) {
 
   #header_nav {
-    width:100%;
+    width:5%;
     height: 85px;
     background-color: #ffffff;
     position:fixed;
