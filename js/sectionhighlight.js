@@ -11,7 +11,7 @@ $(window).scroll(function(){
 
 
     var $nav = $('#intro');
-    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < 500 )) {
+    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < 501 )) {
         if ($nav.data('state') == 'inactive') {
 /*            $nav.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $nav.data('state','active').removeClass("gradient");
@@ -26,7 +26,7 @@ $(window).scroll(function(){
 
 
     var $nav = $('#projectmalbec');
-    if (($('body').scrollTop() > 500 ) && ($('body').scrollTop() < 2400 )) {
+    if (($('body').scrollTop() > 500 ) && ($('body').scrollTop() < 2401 )) {
         if ($nav.data('state') == 'inactive') {
 /*            $nav.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $nav.data('state','active').removeClass("gradient");

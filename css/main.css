@@ -47,8 +47,8 @@
 
 
 @font-face {
-  font-family: Gibson;
-  src: url('http://NathanGao.github.io/fonts/Gibson-Bold.ttf') format('truetype');
+  font-family: Adelle;
+  src: url('http://NathanGao.github.io/fonts/AdelleSans-ExtraBold.ttf') format('truetype');
 }
 
 
@@ -102,7 +102,7 @@ p {
 
 .headertitle {
   position:static;
-  font-family: Gibson, sans-serif;
+  font-family: Adelle, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 3em;
@@ -142,7 +142,7 @@ p {
   text-align:center;
 	margin: 10px auto;
 	font-size: 1.3em;
-  font-family: AkzidenzGrotesk, sans-serif;
+  font-family: Adelle, sans-serif;
 }
 
 .bodysubtitle {
@@ -151,7 +151,7 @@ p {
   width: 100%;
   margin: 20px auto;
   font-size: 1.1em;
-    font-family: AkzidenzGrotesk, sans-serif;
+    font-family: Adelle, sans-serif;
 
 }
 
@@ -298,6 +298,13 @@ position: relative;
     -webkit-transform: scale(1.0, 1.0);
     opacity: 0.25;
     -moz-transition: all .86s ease-in-out;
+    -o-transition: all .86s ease-in-out;
+    -webkit-transition: all .86s ease-in-out;
+    transition: all .86s ease-in-out;
+}
+
+#intro{
+      -moz-transition: all .86s ease-in-out;
     -o-transition: all .86s ease-in-out;
     -webkit-transition: all .86s ease-in-out;
     transition: all .86s ease-in-out;
