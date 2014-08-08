@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: LatoBoldClean;
-  src: url('http://NathanGao.github.io/fonts/Lato-Bold.ttf') format('truetype');
+  font-family: LatoBlack;
+  src: url('http://NathanGao.github.io/fonts/Lato-Black.ttf') format('truetype');
 }
 
 
@@ -37,7 +37,7 @@
 
 @font-face {
   font-family: Raleway;
-  src: url('http://NathanGao.github.io/fonts/Raleway-Medium.otf') format('opentype');
+  src: url('http://NathanGao.github.io/fonts/Raleway-Heavy.otf') format('opentype');
 }
 
 @font-face {
@@ -47,8 +47,8 @@
 
 
 @font-face {
-  font-family: Mayberry;
-  src: url('http://NathanGao.github.io/fonts/mayberry-pro-semibold.ttf') format('truetype');
+  font-family: Gibson;
+  src: url('http://NathanGao.github.io/fonts/Gibson-Bold.ttf') format('truetype');
 }
 
 
@@ -102,7 +102,7 @@ p {
 
 .headertitle {
   position:static;
-  font-family: Mayberry, sans-serif;
+  font-family: LatoBlack, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 3em;
@@ -142,7 +142,7 @@ p {
   text-align:center;
 	margin: 10px auto;
 	font-size: 1.3em;
-  font-family: AkzidenzGroteskMedium, sans-serif;
+  font-family: AkzidenzGrotesk, sans-serif;
 }
 
 .bodysubtitle {
@@ -151,7 +151,7 @@ p {
   width: 100%;
   margin: 20px auto;
   font-size: 1.1em;
-    font-family: AkzidenzGroteskMedium, sans-serif;
+    font-family: AkzidenzGrotesk, sans-serif;
 
 }
 
