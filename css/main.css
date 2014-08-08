@@ -22,12 +22,12 @@
 
 @font-face {
   font-family: AkzidenzGrotesk;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Light.otf') format('opentype');
+  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: AkzidenzGrotesk;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Light.otf') format('opentype');
+  font-family: AkzidenzGroteskMedium;
+  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Medium.otf') format('opentype');
 }
 
 @font-face {
@@ -37,7 +37,7 @@
 
 @font-face {
   font-family: Raleway;
-  src: url('http://NathanGao.github.io/fonts/Raleway-Regular.otf') format('opentype');
+  src: url('http://NathanGao.github.io/fonts/Raleway-Medium.otf') format('opentype');
 }
 
 @font-face {
@@ -46,9 +46,15 @@
 }
 
 
+@font-face {
+  font-family: Mayberry;
+  src: url('http://NathanGao.github.io/fonts/mayberry-pro-semibold.ttf') format('truetype');
+}
+
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-	padding-top: 50px;
+	padding-top: 0px;
 	padding-bottom: 20px;
 	padding-left: 20%;
   height: 100%;
@@ -58,7 +64,8 @@ body {
 	font-size: 20px;
   color: #444;
 	line-height: 1.42857143;
-	background-color: #ecf0f1;
+	background-image: linear-gradient(#F4F4F4, #fff6e4);
+ box-shadow: inset 0 0 0px hsla(0,0%,0%,.3);
 }
 
 p {
@@ -76,7 +83,7 @@ p {
     height: 125px;
     min-height: 55px;
     max-height:125px;
-    background-color: #ffffff;
+    background-color: inherit;
     position:fixed;
     top:0;
     left:37.05%;
@@ -95,7 +102,7 @@ p {
 
 .headertitle {
   position:static;
-  font-family: AkzidenzGroteskMedium, sans-serif;
+  font-family: Mayberry, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
   font-size: 3em;
@@ -105,8 +112,7 @@ p {
   position:absolute;
   width:100%;
   top: 60%;
-/*  font-size: 12px;
-*/  font-size: 1em;
+  font-size: 1em;
   line-height: 1.45;
 }
 
@@ -136,6 +142,7 @@ p {
   text-align:center;
 	margin: 10px auto;
 	font-size: 1.3em;
+  font-family: AkzidenzGroteskMedium, sans-serif;
 }
 
 .bodysubtitle {
@@ -144,6 +151,8 @@ p {
   width: 100%;
   margin: 20px auto;
   font-size: 1.1em;
+    font-family: AkzidenzGroteskMedium, sans-serif;
+
 }
 
 
@@ -156,7 +165,10 @@ p {
 	position:relative;
     left:20%;
 	padding-left: 20px;
-	padding-top: 40px;
+  padding-right: 25px;
+	top:0px;
+      background-color: inherit;
+
 }
 
 
@@ -269,9 +281,27 @@ position: relative;
 }
 
 .project {
-  background-color:'#111111';
+  padding:10px;
+    -moz-transition: all .86s ease-in-out;
+    -o-transition: all .86s ease-in-out;
+    -webkit-transition: all .86s ease-in-out;
+    transition: all .86s ease-in-out;
 }
 
+
+.gradient {
+    -moz-filter: blur(1px);
+    -moz-transform: scale(1.0, 1.0);
+    -o-filter: blur(1px);
+    -o-transform: scale(1.0, 1.0);
+    -webkit-filter: blur(1px);
+    -webkit-transform: scale(1.0, 1.0);
+    opacity: 0.25;
+    -moz-transition: all .86s ease-in-out;
+    -o-transition: all .86s ease-in-out;
+    -webkit-transition: all .86s ease-in-out;
+    transition: all .86s ease-in-out;
+}
 
 /*Body animation and effects*/
 .come-in {
@@ -289,7 +319,6 @@ position: relative;
   -o-transform: translateY(0);
   transform: translateY(0);
   animation: none;
-/*  font-family: impact;*/
 }
 
 @-webkit-keyframes come-in {
@@ -361,10 +390,11 @@ body {
 .bodytext{
 /*  font-family: AkzidenzGrotesk, sans-serif;
   font-size: 45px;*/
+  margin-right: 50px;
 }
 
   #header_nav {
-    width:100%;
+    width:110%;
     height: 125px;
     background-color: #ffffff;
     position:fixed;
