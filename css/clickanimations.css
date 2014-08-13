@@ -22,7 +22,7 @@
 .clicky:focus {
   /** Remove Chrome's Ugly Yellow Outline **/
   outline: 0;
-}nn
+}
 
 /** Transitions **/
 .clicky-transition {

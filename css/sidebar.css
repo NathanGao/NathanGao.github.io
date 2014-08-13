@@ -10,16 +10,40 @@
   padding-right: 0;
   padding-top: 50px;
   position: fixed;
-
 }
+
 #sidebar .nav {
   font-size: 18px;
   width: 95%;
 }
+
 #sidebar li {
   border:0 #f2f2f2 solid;
-  border-bottom-width:1px;
+  border-bottom-width: 1px;
 }
+
+.glow {
+background-color: #bdc3c7;
+
+    -moz-transition: all .46s ease-in-out;
+    -o-transition: all .46s ease-in-out;
+    -webkit-transition: all .46s ease-in-out;
+    transition: all .46s ease-in-out;
+
+}
+
+.li:hover {
+-webkit-box-shadow: 0px 0px 3px 5px #f5f5f5;
+-moz-box-shadow: 0px 0px 3px 5px #f5f5f5;
+-o-box-shadow: 0px 0px 3px 5px #f5f5f5;
+box-shadow: 0px 0px 3px 5px #f5f5f5; 
+
+    -moz-transition: all .46s ease-in-out;
+    -o-transition: all .46s ease-in-out;
+    -webkit-transition: all .46s ease-in-out;
+    transition: all .46s ease-in-out;
+}
+
 
 /* collapsed sidebar styles */
 @media (max-device-width: 407px), (max-width: 767px) {
@@ -73,7 +97,7 @@
   #sidebar .nav>li>a:hover, #sidebar .nav>li>a:focus {
     text-decoration: none;
     background: linear-gradient(#000000, #000000); /*background: linear-gradient(#373737, #323232);*/
-    color: #fff;  
+    color: #fff;
   }
   #sidebar .nav .caret {
     border-top-color: #fff;

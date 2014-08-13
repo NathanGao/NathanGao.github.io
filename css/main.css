@@ -51,6 +51,11 @@
   src: url('http://NathanGao.github.io/fonts/AdelleSans-ExtraBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: AdelleSemi;
+  src: url('http://NathanGao.github.io/fonts/AdelleSans-SemiBold.ttf') format('truetype');
+}
+
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
@@ -76,17 +81,21 @@ p {
 	background-color: #ffffff;
 }
 
+li {
+  cursor: pointer;
+  background-color: ;
+}
 
 /*Header bar classes: name and brief description*/
 #header_nav {
-    width:51%;
+    width: 48%;
     height: 125px;
     min-height: 55px;
     max-height:125px;
     background-color: inherit;
     position:fixed;
     top:0;
-    left:37.05%;
+    left:37.55%;
     box-shadow: 0px 5px rgba(0, 0, 0, 1);
     z-index:50;
 }
@@ -106,6 +115,7 @@ p {
     width:100%;
 /*  font-size: 24px;*/
   font-size: 3em;
+  top: 0px;
 }
 
 .headertext {
@@ -114,6 +124,7 @@ p {
   top: 60%;
   font-size: 1em;
   line-height: 1.45;
+  font-family: AdelleSemi, sans-serif;
 }
 
 
@@ -122,13 +133,16 @@ p {
 	height: 350px;
 	width: 98.5%;
 	overflow: hidden;
-  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .headerpiccrop img {
+  position: relative;
 	height: 600px;
 	width: 900px;
+  left:8%;
 	margin-top: -25px;
+  margin:  0 auto;
 }
 
 
@@ -149,7 +163,7 @@ p {
   display:block;
   text-align:center;
   width: 100%;
-  margin: 20px auto;
+  margin: 10px auto;
   font-size: 1.1em;
     font-family: Adelle, sans-serif;
 
@@ -158,14 +172,14 @@ p {
 
 .bodytext{
 	font-size: 1em;
+  padding: 0 8%;
 }
 
 
 .bodyshell{
 	position:relative;
-    left:20%;
-	padding-left: 20px;
-  padding-right: 25px;
+    left: 15%;
+	padding:25px;
 	top:0px;
       background-color: inherit;
 
@@ -177,7 +191,7 @@ p {
   width:98%;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-		padding-bottom: 30px;
+  margin-top:60px;
 }
 
 
@@ -389,7 +403,7 @@ position: relative;
 }
 
 @media (max-device-width: 407px) {
-  
+
 body {
   font-size: 25px;
 }
@@ -413,7 +427,7 @@ body {
   .bodytitle {
     display:block;
     text-align:center;
-    margin: 10px auto;
+    margin: 20px 50px;
     font-family: AkzidenzGroteskMedium, sans-serif;
     font-size: 2em;
   }
@@ -482,4 +496,3 @@ body {
   }
 
 }
-
