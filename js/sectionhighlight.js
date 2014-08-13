@@ -46,7 +46,7 @@ $(window).scroll(function(){
 
     var $sec = $('#projectperseus');
     var $nav = $('#perseus');
-    if (($('body').scrollTop() > 2400 ) && ($('body').scrollTop() < 3500 )) {
+    if (($('body').scrollTop() > 2400 ) && ($('body').scrollTop() < 3300 )) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -63,7 +63,7 @@ $(window).scroll(function(){
 
     var $sec = $('#projectpayperks');
     var $nav = $('#payperks');
-    if (($('body').scrollTop() > 2400 ) && ($('body').scrollTop() < 3500 )) {
+    if (($('body').scrollTop() > 3300 ) && ($('body').scrollTop() < 8500 )) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
