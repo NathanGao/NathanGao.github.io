@@ -2,19 +2,35 @@ $(function(){
     $('#intro').data('state','active');
     $('#projectmalbec').data('state','inactive');
     $('#projectperseus').data('state','inactive');
-    $('#projectpoop').data('state','inactive');
+    $('#projectpayperks').data('state','inactive');
     $('#home').data('state','active');
     $('#malbec').data('state','inactive');
     $('#perseus').data('state','inactive');
-    $('#poop').data('state','inactive');
+    $('#payperks').data('state','inactive');
 
 });
+
+var win = $(window);
+
+
+win.scroll(function(event) {
+
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in");
+    }
+  });
+
+});
+
+
 
 $(window).scroll(function(){
 
     var $sec = $('#intro');
     var $nav = $('#home');
-    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < 601 )) {
+    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < $('#projectmalbec').offset().top -800)) {
         if ($sec.data('state') == 'inactive') {
 /*            $sec.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $sec.data('state','active').removeClass("gradient");
@@ -30,7 +46,7 @@ $(window).scroll(function(){
 
     var $sec = $('#projectmalbec');
     var $nav = $('#malbec');
-    if (($('body').scrollTop() > 500 ) && ($('body').scrollTop() < 2501 )) {
+    if (($('body').scrollTop() > $('#projectmalbec').offset().top -1000) && ($('body').scrollTop() < $('#projectperseus').offset().top -600)) {
         if ($sec.data('state') == 'inactive') {
 /*            $sec.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $sec.data('state','active').removeClass("gradient");
@@ -46,7 +62,7 @@ $(window).scroll(function(){
 
     var $sec = $('#projectperseus');
     var $nav = $('#perseus');
-    if (($('body').scrollTop() > 2400 ) && ($('body').scrollTop() < 3300 )) {
+    if (($('body').scrollTop() > $('#projectperseus').offset().top -800) && ($('body').scrollTop() < $('#projectpayperks').offset().top -600)) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -63,7 +79,7 @@ $(window).scroll(function(){
 
     var $sec = $('#projectpayperks');
     var $nav = $('#payperks');
-    if (($('body').scrollTop() > 3300 ) && ($('body').scrollTop() < 8500 )) {
+    if (($('body').scrollTop() > $('#projectpayperks').offset().top -800) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -84,16 +100,4 @@ $(window).scroll(function(){
 
 );
 
-     var win = $(window);
-
-
-win.scroll(function(event) {
-
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("come-in");
-    }
-  });
-
-});
+     

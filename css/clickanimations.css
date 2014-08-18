@@ -54,6 +54,6 @@
 
 .picture:active .mask{
   /** Remove 3D Block Effect on Click **/
-  top: 72%;
+  top: 62%;
   left: 20px;
 }

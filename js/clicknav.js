@@ -31,7 +31,7 @@ $("#payperks").click(function(){
     var $butt = $(window);
         // if ($nav.data('size') == 'big') {
             // $butt.data('size','top').stop();
-            $butt.data('size','top').scrollTo('#projectperseus', 750, {offset:-100});
+            $butt.data('size','top').scrollTo('#projectpayperks', 750, {offset:-100});
 
 });
 
