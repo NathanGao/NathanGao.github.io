@@ -1,59 +1,59 @@
 
 @font-face {
   font-family: CreteClean;
-  src: url('http://NathanGao.github.io/fonts/CreteRound-Regular.otf') format('opentype');
+  src: url('../fonts/CreteRound-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: CallunaSansClean;
-  src: url('http://NathanGao.github.io/fonts/CallunaSans-Regular.otf') format('opentype');
+  src: url('../fonts/CallunaSans-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: LatoBlack;
-  src: url('http://NathanGao.github.io/fonts/Lato-Black.ttf') format('truetype');
+  src: url('../fonts/Lato-Black.ttf') format('truetype');
 }
 
 
 @font-face {
   font-family: LatoRegularClean;
-  src: url('http://NathanGao.github.io/fonts/Lato-Regular.ttf') format('truetype');
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: AkzidenzGrotesk;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Regular.otf') format('opentype');
+  src: url('../fonts/AkzidenzGrotesk-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: AkzidenzGroteskMedium;
-  src: url('http://NathanGao.github.io/fonts/AkzidenzGrotesk-Medium.otf') format('opentype');
+  src: url('../fonts/AkzidenzGrotesk-Medium.otf') format('opentype');
 }
 
 @font-face {
   font-family: Quicksand;
-  src: url('http://NathanGao.github.io/fonts/Quicksand-Regular.otf') format('opentype');
+  src: url('../fonts/Quicksand-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: Raleway;
-  src: url('http://NathanGao.github.io/fonts/Raleway-Heavy.otf') format('opentype');
+  src: url('../fonts/Raleway-Heavy.otf') format('opentype');
 }
 
 @font-face {
   font-family: Tisa;
-  src: url('http://NathanGao.github.io/fonts/TisaOT.otf') format('opentype');
+  src: url('../fonts/TisaOT.otf') format('opentype');
 }
 
 
 @font-face {
   font-family: Adelle;
-  src: url('http://NathanGao.github.io/fonts/AdelleSans-ExtraBold.ttf') format('truetype');
+  src: url('../fonts/AdelleSans-ExtraBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: AdelleSemi;
-  src: url('http://NathanGao.github.io/fonts/AdelleSans-SemiBold.ttf') format('truetype');
+  src: url('../fonts/AdelleSans-SemiBold.ttf') format('truetype');
 }
 
 
@@ -83,22 +83,22 @@ p {
 
 li {
   cursor: pointer;
-  background-color: ;
 }
 
 /*Header bar classes: name and brief description*/
 #header_nav {
-    width: 48%;
+    width: 52%;
     height: 125px;
     min-height: 55px;
     max-height:115px;
     background-color: inherit;
     position:fixed;
     top:0;
-    box-shadow: 0px 5px rgba(0, 0, 0, 1);
-    z-index:50;
+/*    box-shadow: 0px 5px rgba(0, 0, 0, 1);
+*/    z-index:50;
+    background-color: rgba(255, 255, 255, .8);
     padding: 0;
-    margin: 0 4.55%;
+    margin: 0 4%;
 
 }
 
@@ -123,6 +123,11 @@ li {
   left:2px;
   margin-top:0px;
   font-family: AdelleSemi, sans-serif;
+/*
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;*/
 }
 
 
@@ -136,10 +141,8 @@ li {
 
 .titlepic {
   position: relative;
-	height: 400px;
-	width: 830px;
-	margin-top: -25px;
-  margin:  0 8%;
+	max-width: 100%;
+  margin-top: 120px;
 }
 
 
@@ -175,7 +178,7 @@ li {
 
 .bodyshell{
 	position:relative;
-    left: 15%;
+    left: 8%;
 	padding:25px;
   margin-left:25px;
 	top:0px;
@@ -223,12 +226,18 @@ margin-bottom:0;
   position: relative;
   font-size: .8em;
   text-align: center;
-
+  font-family: AdelleSemi;
     padding: auto 0;
 }
 
-.leftpic {
+.picblock {
+  width:100%;
+  margin: 20px 0;
+  padding: 20px 0;
+  background-color: #ecf0f1;
+}
 
+.leftpic {
 }
 
 .midpic{
@@ -311,6 +320,23 @@ filter: grayscale(50%);
     transition: all .86s ease-in-out;
 }
 
+/*Body animation and effects*/
+.come-in {
+  -webkit-transform: translateY(500px);
+  -moz-transform: translateY(500px);
+  -o-transform: translateY(500px);
+  -webkit-animation: come-in 0.8s ease forwards;
+  animation: come-in 0.8s ease forwards;
+/*  font-size: 99px;*/
+}
+
+.already-visible {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  animation: none;
+}
 
 .gradient {
     -moz-filter: blur(1px);
@@ -333,24 +359,6 @@ filter: grayscale(50%);
     transition: all .86s ease-in-out;
 }
 
-/*Body animation and effects*/
-.come-in {
-  -webkit-transform: translateY(500px);
-  -moz-transform: translateY(500px);
-  -o-transform: translateY(500px);
-  -webkit-animation: come-in 0.8s ease forwards;
-  animation: come-in 0.8s ease forwards;
-/*  font-size: 99px;*/
-}
-
-.already-visible {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-  animation: none;
-}
-
 @-webkit-keyframes come-in {
   to {
    -webkit-transform: translateY(0);
@@ -370,27 +378,43 @@ filter: grayscale(50%);
 }
 
 
-@media (max-width: 767px) {
+
+@media (max-width: 1400px) {
+
+.headertext {
+    font-size:.8em;  
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+
+  .col-xs-9 {
+    width: 85%;
+      margin: 0 auto;
+
+  }
+  .col-sm-9 {
+    width: 85%;
+      margin: 0 auto;
+
+  }
+
+
+@media (max-device-width: 407px), (max-width: 767px) {
 
   #header_nav {
     width:100%;
-    height: 85px;
-    background-color: #ffffff;
-    position:fixed;
-    top:0;
-    left:0%;
-    box-shadow: 0px 15px rgba(0, 0, 0, 1);
-
+  }
+  .headertext {
+    display:none;
   }
 
   .bodyshell{
     position:absolute;
-      left: 1%;
-    padding-left: 10px;
-    padding-top: 40px;
-  }
-  .headertext{
-    display:none;
+    margin: 0px;
+    padding:0;
   }
 
   .col-xs-8 {
@@ -402,6 +426,23 @@ filter: grayscale(50%);
     width: 98%;
       margin: 0 auto;
 
+  }
+
+  .col-xs-9 {
+    width: 100%;
+    left:0;
+      margin: 0 auto;
+
+  }
+  .col-sm-9 {
+    width: 100%;
+    left:0;
+      margin: 0 auto;
+
+  }
+
+  .titlepic {
+    margin: 0;
   }
 
   .col-md-4 {
@@ -425,14 +466,8 @@ body {
 
   #header_nav {
     width:110%;
-    height: 125px;
-    background-color: #ffffff;
-    position:fixed;
-    top:0;
-    left:0%;
-    box-shadow: 0px 15px rgba(0, 0, 0, 1);
-
   }
+
   .bodytitle {
     display:block;
     text-align:center;
@@ -454,12 +489,6 @@ body {
     font-size: 1.3em;
   }
 
-  .bodyshell{
-    position:absolute;
-      left: 1%;
-    padding-left: 10px;
-    padding-top: 40px;
-  }
   .headertext{
     display:none;
   }

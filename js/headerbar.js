@@ -8,10 +8,10 @@ $(function(){
 
 $(window).scroll(function(){
     var $nav = $('#header_nav');
-    if ($('body').scrollTop() > 200) {
+    if ($('body').scrollTop() >= 200) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
-            $nav.data('size','small').animate({height:'70px'}, 100);
+            $nav.data('size','small').animate({height:'75px'}, 100);
             $nav.data('size','small').animate({boxShadow : '0 5px 0px 0px rgba(0,0,0,.5)'}, 40);/*x y blur border?*/
         }
     } else {
@@ -25,7 +25,7 @@ $(window).scroll(function(){
 
 
     var $nav = $('.headertitle');
-    if ($('body').scrollTop() > 200) {
+    if ($('body').scrollTop() >= 200) {
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').animate({fontSize : '2em'}, 40);
         }
@@ -39,10 +39,10 @@ $(window).scroll(function(){
           var $nav = $('.headertext');
           if ($('body').scrollTop() < 200) {
                 if ($nav.data('title') != 'none') {
-                  $nav.data('title','none').animate({fontSize : '1em'}, 10);
-                  $nav.data('title','none').animate({top: '0px'}, 10);
-                  $nav.data('title','none').animate({width: '100%'}, 10);
-                  $nav.data('title','none').animate({left: '2px'}, 10);
+                  $nav.data('title','none').animate({top: '0px'}, 10);               
+                  $nav.data('title','none').animate({left: '2px'}, 20);
+                  $nav.data('title','none').animate({width: '100%'}, 20);
+                  $nav.data('title','none').animate({fontSize : '1em'}, 20);
                   $nav.data('title','none').text('User Experience/Interaction Designer, Information Architect. NYC');
                 }
 
