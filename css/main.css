@@ -460,9 +460,6 @@ li p {
 
   }
 
-  .titlepic {
-    margin: 0;
-  }
 
   .col-md-4 {
     width: 74%;
@@ -476,9 +473,7 @@ li p {
 body {
   font-size: 12px;
 }
-.titlepic {
-  margin-top: 120px;
-}
+
 /*.headertitle {
   font-size: 2em;
  
