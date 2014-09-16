@@ -7,15 +7,16 @@
 }
 #sidebar {
   height: 100%;
-  padding-right: 0;
-  padding-top: 100px;
+/*  padding-right: 0;*/
   position: fixed;
-  left:15%;
+  left:10%;
+  background-color: #ffffff;
+  padding: 100px 25px 0 25px;
 }
 
 #sidebar .nav {
   font-size: 18px;
-  width: 75%;
+  /*width: 75%;*/
 }
 
 #sidebar li {
@@ -52,7 +53,7 @@ box-shadow: 0px 0px 3px 5px #f5f5f5;
 @media (max-width: 1000px) {
 
   #sidebar {
-    left:10%;
+    left:5%;
   }
 
 

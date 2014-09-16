@@ -85,10 +85,13 @@ li {
   cursor: pointer;
 }
 
+
+
 /*Header bar classes: name and brief description*/
 #header_nav {
-    width: 52%;
+    width: 55%;
     height: 125px;
+    max-width: 850px;
     min-height: 55px;
     max-height:115px;
     background-color: inherit;
@@ -105,7 +108,6 @@ li {
 
 
 .headertitle {
-  position:static;
   font-family: Adelle, sans-serif;
     width:100%;
 /*  font-size: 24px;*/
@@ -166,6 +168,7 @@ li {
   margin: 10px auto;
   font-size: 1.1em;
     font-family: Adelle, sans-serif;
+    background-color: transparent;
 
 }
 
@@ -232,7 +235,7 @@ margin-bottom:0;
 
 .picblock {
   width:100%;
-  margin: 20px 0;
+  margin: 40px 0;
   padding: 20px 0;
   background-color: #ecf0f1;
 }
@@ -381,14 +384,26 @@ filter: grayscale(50%);
 
 @media (max-width: 1400px) {
 
-.headertext {
+body {
+  font-size: 16px;
+}
+
+/*.headertext {
     font-size:.8em;  
   }
 
-}
+}*/
 
 @media (max-width: 1000px) {
 
+body {
+  font-size: 14px;
+}
+
+li a, 
+li p {
+  font-size: .7em;
+}
 
   .col-xs-9 {
     width: 85%;
@@ -402,15 +417,19 @@ filter: grayscale(50%);
   }
 
 
-@media (max-device-width: 407px), (max-width: 767px) {
+@media (max-device-width: 767px), (max-width: 767px) {
+
+  body {
+  font-size: 14px;
+}
 
   #header_nav {
     width:100%;
   }
-  .headertext {
-    display:none;
-  }
 
+/*  .headertext {
+    display:none;
+  }*/
   .bodyshell{
     position:absolute;
     margin: 0px;
@@ -452,16 +471,23 @@ filter: grayscale(50%);
 
 }
 
-@media (max-device-width: 407px) {
+@media (max-device-width: 407px), (max-width: 407px) {
 
 body {
-  font-size: 25px;
+  font-size: 12px;
 }
+.titlepic {
+  margin-top: 120px;
+}
+/*.headertitle {
+  font-size: 2em;
+ 
+}*/
 
 .bodytext{
 /*  font-family: AkzidenzGrotesk, sans-serif;
   font-size: 45px;*/
-  margin-right: 50px;
+  /*margin-right: 50px;*/
 }
 
   #header_nav {
@@ -471,22 +497,20 @@ body {
   .bodytitle {
     display:block;
     text-align:center;
-    margin: 20px 50px;
-    font-family: AkzidenzGroteskMedium, sans-serif;
-    font-size: 2em;
+    /*margin: 20px 50px;*/
+    font-size: 1.4em;
   }
 
   .bodysubtitle {
     display:block;
     text-align:center;
     width: 100%;
-    margin: 20px auto;
-    font-family: AkzidenzGroteskMedium, sans-serif;
-    font-size: 1.5em;
+    /*margin: 20px auto;*/
+    font-size: 1.1em;
   }
 
   .bodytext{
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .headertext{
@@ -498,7 +522,7 @@ body {
       top:10%;
       width:100%;
     color:rgba(255, 255, 255, 0.0);
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
 
