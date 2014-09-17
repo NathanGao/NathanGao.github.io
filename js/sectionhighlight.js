@@ -30,7 +30,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pageintro');
     var $nav = $('#navhome');
-    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < $('#pagemalbec').offset().top -800)) {
+    if (($('body').scrollTop() >= 0 ) && ($('body').scrollTop() < $('#pagemalbec').offset().top -300)) {
         if ($sec.data('state') == 'inactive') {
 /*            $sec.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $sec.data('state','active').removeClass("gradient");
@@ -46,7 +46,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pagemalbec');
     var $nav = $('#navmalbec');
-    if (($('body').scrollTop() > $('#pagemalbec').offset().top -1000) && ($('body').scrollTop() < $('#pageperseus').offset().top -600)) {
+    if (($('body').scrollTop() > $('#pagemalbec').offset().top -600) && ($('body').scrollTop() < $('#pageperseus').offset().top -300)) {
         if ($sec.data('state') == 'inactive') {
 /*            $sec.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $sec.data('state','active').removeClass("gradient");
@@ -56,13 +56,13 @@ $(window).scroll(function(){
         if ($sec.data('state') == 'active') {
 /*            $sec.data('state','inactive').animate({backgroundColor: 'transparent'}, 400);*/
             $sec.data('state','inactive').addClass("gradient");
-            $nav.data('state','inactive').removeClass("glow");            
+            $nav.data('state','inactive').removeClass("glow");
         }
     }
 
     var $sec = $('#pageperseus');
     var $nav = $('#navperseus');
-    if (($('body').scrollTop() > $('#pageperseus').offset().top -800) && ($('body').scrollTop() < $('#pagepayperks').offset().top -600)) {
+    if (($('body').scrollTop() > $('#pageperseus').offset().top -600) && ($('body').scrollTop() < $('#pagepayperks').offset().top -300)) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -79,7 +79,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pagepayperks');
     var $nav = $('#navpayperks');
-    if (($('body').scrollTop() > $('#pagepayperks').offset().top -800) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
+    if (($('body').scrollTop() > $('#pagepayperks').offset().top -600) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -99,5 +99,3 @@ $(window).scroll(function(){
 
 
 );
-
-     
