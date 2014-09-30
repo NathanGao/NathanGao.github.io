@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){     // $(function(){
     $('#header_nav').data('size','big');
 /*    $('.headertitlebox').data('size','big');
     $('.headertextbox').data('size','big');*/

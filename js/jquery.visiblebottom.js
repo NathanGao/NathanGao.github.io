@@ -1,4 +1,5 @@
-(function($) {
+$(document).ready(function() { 
+// (function($) {
 
   /**
    * Copyright 2012, Digital Fusion
@@ -26,7 +27,7 @@
 
   };
     
-})(jQuery);
+});
 
     var win = $(window);
 

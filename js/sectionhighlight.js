@@ -1,4 +1,5 @@
-$(function(){
+$(document).ready(function(){
+    // $(function(){
     $('#pageintro').data('state','active');
     $('#pagemalbec').data('state','inactive');
     $('#pageperseus').data('state','inactive');
