@@ -198,10 +198,15 @@ li {
   margin-top:60px;
 }
 
+.row {
+  
+}
 
 .thumb {
 	width: 100%;
 	height: 100%;
+max-height: 240px;
+
 box-shadow: 5px 5px #2c3e50; /*428bca*/
 
 border: 1px solid rgba(0, 0, 0, 1);
@@ -226,7 +231,7 @@ position: relative;
 
 .thumbcaption {
   position: relative;
-  font-size: 1em;
+  font-size: .8em;
   text-align: center;
   font-family: AdelleSemi;
     padding: auto 0;
