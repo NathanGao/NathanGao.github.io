@@ -74,7 +74,7 @@ body {
 }
 
 p {
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .page-container {
@@ -89,9 +89,9 @@ li {
 
 /*Header bar classes: name and brief description*/
 #header_nav {
-    width: 70%;
+    width: 55%;
     height: 125px;
-    max-width: 950px;
+    /*max-width: 950px;*/
     min-height: 55px;
     max-height:115px;
     background-color: inherit;
@@ -99,7 +99,7 @@ li {
     top:0;
 /*    box-shadow: 0px 5px rgba(0, 0, 0, 1);
 */    z-index:50;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .9);
     padding-left: 1.5%;
     margin: 0 0 0 3% !important;
 
@@ -143,8 +143,11 @@ li {
 
 .titlepic {
   position: relative;
-	max-width: 100%;
-  margin-top: 120px;
+  float:left;
+	max-width: 10vw;
+  max-height: 10vw;
+  margin-top: -13%;
+  margin-left: -20%;
 }
 
 
@@ -199,7 +202,7 @@ li {
 }
 
 .row {
-  
+
 }
 
 .thumb {
@@ -219,12 +222,12 @@ border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .thumbcaptionbox {
-height:50px;
+height:30px;
 }
 
 .thumbcaptiontextbox{
 position: relative;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
@@ -347,7 +350,7 @@ filter: grayscale(50%);
 }
 
 .gradient {
-    opacity: 0.25;
+    opacity: 0.85;
     -moz-filter: blur(1px);
     -moz-transform: scale(1.0, 1.0);
     -o-filter: blur(1px);
@@ -403,6 +406,10 @@ body {
 
 body {
   font-size: 14px;
+}
+
+.titlepic {
+display:none;
 }
 
 li a,

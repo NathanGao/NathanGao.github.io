@@ -4,6 +4,7 @@ $(document).ready(function(){     // $(function(){
     $('.headertextbox').data('size','big');*/
     $('.headertitle').data('size','big');
     $('.headertext').data('title','none');
+    $('.titlepic').data('size','big');
 });
 
 $(window).scroll(function(){
@@ -23,6 +24,19 @@ $(window).scroll(function(){
         }
     }
 
+ var $nav = $('.titlepic');
+    if ($('body').scrollTop() >= 150) {
+        if ($nav.data('size') == 'big') {
+            $nav.data('size','small').stop();
+            $nav.data('size','small').hide({easing:'easeOutBack'}, 500);
+        }
+    } else {
+        if ($nav.data('size') == 'small') {
+            $nav.data('size','big').stop();
+            $nav.data('size','big').show({easing:'easeInOutBack'}, 500);
+
+        }
+    }
 
     var $nav = $('.headertitle');
     if ($('body').scrollTop() >= 200) {
@@ -39,10 +53,10 @@ $(window).scroll(function(){
           var $nav = $('.headertext');
           if ($('body').scrollTop() < 200) {
                 if ($nav.data('title') != 'none') {
-                  $nav.data('title','none').animate({top: '0px'}, 10);               
-                  $nav.data('title','none').animate({left: '2px'}, 20);
-                  $nav.data('title','none').animate({width: '100%'}, 20);
-                  $nav.data('title','none').animate({fontSize : '1em'}, 20);
+                  $nav.data('title','none').animate({top: '0px'}, 0);
+                  $nav.data('title','none').animate({left: '2px'}, 0);
+                  $nav.data('title','none').animate({width: '100%'}, 0);
+                  $nav.data('title','none').animate({fontSize : '1em'}, 0);
                   $nav.data('title','none').text('User Experience/Interaction Designer, Information Architect. NYC');
                 }
 
@@ -61,25 +75,31 @@ $(window).scroll(function(){
                         $nav.data('title','Malbec').animate({width: '60%'}, 10);
                         $nav.data('title','Malbec').animate({left: '50%'}, 10);
                         $nav.data('title','Malbec').animate({top: '-30px'}, 10);
-                        $nav.data('title','Malbec').text('Project Malbec - Trade Reconciliation');}}
+                        $nav.data('title','Malbec').text('Project Malbec - Financial Reonciliation');}
 
-            else {
-            if (($('body').scrollTop() > $('#pageperseus').offset().top -800) && ($('body').scrollTop() < $('#pagepayperks').offset().top -600)) {
+          } else {
+            if (($('body').scrollTop() > $('#pageperseus').offset().top -800) && ($('body').scrollTop() < $('#pageprivate').offset().top -600)) {
                     if ($nav.data('title') != 'perseus') {
                           $nav.data('title','perseus').animate({width: '60%'}, 10);
                           $nav.data('title','perseus').animate({left: '50%'}, 10);
                           $nav.data('title','perseus').animate({top: '-30px'}, 10);
-                          $nav.data('title','perseus').text('Perseus Telecom: Corporate Site');}}
-            else {
-            if (($('body').scrollTop() > $('#pagepayperks').offset().top -800) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
-                    if ($nav.data('title') != 'payperks') {
-                          $nav.data('title','payperks').animate({width: '60%'}, 10);
-                          $nav.data('title','payperks').animate({left: '50%'}, 10);
-                          $nav.data('title','payperks').animate({top: '-30px'}, 10);
-                          $nav.data('title','payperks').text('Payperks: Design Challenge');}}}}
+                          $nav.data('title','perseus').text('Perseus Telecom: Corporate Site');}
+           } else {
+            if (($('body').scrollTop() > $('#pageprivate').offset().top -800) && ($('body').scrollTop() < $('#pagesite').offset().top -600 )) {
+                    if ($nav.data('title') != 'private') {
+                          $nav.data('title','private').animate({width: '60%'}, 10);
+                          $nav.data('title','private').animate({left: '50%'}, 10);
+                          $nav.data('title','private').animate({top: '-30px'}, 10);
+                          $nav.data('title','private').text('Private Startup: Design Challenge');}
+           } else {
+            if (($('body').scrollTop() > $('#pagesite').offset().top -800) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
+                    if ($nav.data('title') != 'private') {
+                          $nav.data('title','private').animate({width: '60%'}, 10);
+                          $nav.data('title','private').animate({left: '50%'}, 10);
+                          $nav.data('title','private').animate({top: '-30px'}, 10);
+                          $nav.data('title','private').text('The Making of this Site. Thanks for Visiting!');}}
 
-
-
+}}}
                 }
 
         }
