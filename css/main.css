@@ -148,6 +148,7 @@ li {
   max-height: 10vw;
   margin-top: -13%;
   margin-left: -20%;
+  z-index: 50;
 }
 
 
