@@ -183,14 +183,15 @@ li {
 }
 
 
-.bodyshell{
+#bodyshell{
 	position:relative;
     left: 8%;
 	padding:25px;
   margin-left:25px;
 	top:0px;
       background-color: inherit;
-
+            overflow:auto;
+            -webkit-overflow-scrolling: touch;
 }
 
 
@@ -215,7 +216,7 @@ li {
 
 .accent {
   color: #000000;
-  box-shadow: 25px;
+  
 }
 
 .thumb {
@@ -456,7 +457,7 @@ li p {
 /*  .headertext {
     display:none;
   }*/
-  .bodyshell{
+  #bodyshell{
     position:absolute;
     margin: 0px;
     padding:0;
