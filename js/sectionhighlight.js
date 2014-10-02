@@ -48,7 +48,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pagemalbec');
     var $nav = $('#navmalbec');
-    if (($('body').scrollTop() > $('#pagemalbec').offset().top -550) && ($('body').scrollTop() < $('#pageperseus').offset().top -400)) {
+    if (($('body').scrollTop() > $('#pagemalbec').offset().top -600) && ($('body').scrollTop() < $('#pageperseus').offset().top -400)) {
         if ($sec.data('state') == 'inactive') {
 /*            $sec.data('state','active').animate({backgroundColor : 'rgba(243, 156, 18,.5)'}, 400);*/
             $sec.data('state','active').removeClass("gradient");
@@ -64,7 +64,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pageperseus');
     var $nav = $('#navperseus');
-    if (($('body').scrollTop() > $('#pageperseus').offset().top -550) && ($('body').scrollTop() < $('#pageprivate').offset().top -400)) {
+    if (($('body').scrollTop() > $('#pageperseus').offset().top -600) && ($('body').scrollTop() < $('#pageprivate').offset().top -400)) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -81,7 +81,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pageprivate');
     var $nav = $('#navprivate');
-    if (($('body').scrollTop() > $('#pageprivate').offset().top -550) && ($('body').scrollTop() < $('#pagesite').offset().top -400)) {
+    if (($('body').scrollTop() > $('#pageprivate').offset().top -600) && ($('body').scrollTop() < $('#pagesite').offset().top -400)) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
@@ -98,7 +98,7 @@ $(window).scroll(function(){
 
     var $sec = $('#pagesite');
     var $nav = $('#navsite');
-    if (($('body').scrollTop() > $('#pagesite').offset().top -550) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
+    if (($('body').scrollTop() > $('#pagesite').offset().top -600) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
         if ($sec.data('state') == 'inactive') {
             $sec.data('state','active').removeClass("gradient");
             $nav.data('state','active').addClass("glow");
