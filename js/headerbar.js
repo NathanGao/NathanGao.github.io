@@ -95,11 +95,11 @@ $(window).scroll(function(){
                           $nav.data('title','private').text('Private Startup: Design Challenge');}
            } else {
             if (($('body').scrollTop() > $('#pagesite').offset().top -800) && ($('body').scrollTop() < $('body').scrollTop() < 18500 )) {
-                    if ($nav.data('title') != 'private') {
-                          $nav.data('title','private').animate({width: '60%'}, 10);
-                          $nav.data('title','private').animate({left: '50%'}, 10);
-                          $nav.data('title','private').animate({top: '-30px'}, 10);
-                          $nav.data('title','private').text('The Making of this Site. Thanks for Visiting!');}}
+                    if ($nav.data('title') != 'site') {
+                          $nav.data('title','site').animate({width: '60%'}, 10);
+                          $nav.data('title','site').animate({left: '50%'}, 10);
+                          $nav.data('title','site').animate({top: '-30px'}, 10);
+                          $nav.data('title','site').text('The Making of this Site. Thanks for Visiting!');}}
 
 }}}
                 }
