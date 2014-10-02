@@ -29,13 +29,13 @@ $(window).scroll(function(){
         if ($nav.data('size') == 'big') {
             $nav.data('size','small').stop();
             // $nav.data('size','small').hide({easing:'easeOutBack'}, 500);
-            $nav.data('size','small').animate({marginTop: '-30%', easing:'linear'}, 500);
+            $nav.data('size','small').animate({marginTop: '-30%'}, 200);
         }
     } else {
         if ($nav.data('size') == 'small') {
             $nav.data('size','big').stop();
             // $nav.data('size','big').show({easing:'easeOutBack'}, 500);
-            $nav.data('size','big').animate({marginTop: '-13%', easing:'linear'}, 500);
+            $nav.data('size','big').animate({marginTop: '-13%'}, 200);
 
         }
     }
