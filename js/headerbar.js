@@ -33,7 +33,7 @@ $(window).scroll(function(){
     } else {
         if ($nav.data('size') == 'small') {
             $nav.data('size','big').stop();
-            $nav.data('size','big').show({easing:'easeInOutBack'}, 500);
+            $nav.data('size','big').show({easing:'easeOutBack'}, 500);
 
         }
     }
