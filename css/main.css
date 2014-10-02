@@ -213,6 +213,11 @@ li {
 
 }
 
+.accent {
+  color: #000000;
+  box-shadow: 25px;
+}
+
 .thumb {
 	width: 100%;
 	height: 100%;
