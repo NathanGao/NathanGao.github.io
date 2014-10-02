@@ -77,7 +77,7 @@ $(window).scroll(function(){
                         $nav.data('title','Malbec').animate({width: '60%'}, 10);
                         $nav.data('title','Malbec').animate({left: '50%'}, 10);
                         $nav.data('title','Malbec').animate({top: '-30px'}, 10);
-                        $nav.data('title','Malbec').text('Project Malbec - Financial Reonciliation');}
+                        $nav.data('title','Malbec').text('Scivantage - Financial Reonciliation');}
 
           } else {
             if (($('body').scrollTop() > $('#pageperseus').offset().top -800) && ($('body').scrollTop() < $('#pageprivate').offset().top -600)) {
