@@ -495,7 +495,7 @@ display:none;
 @media (max-device-width: 407px), (max-width: 407px)  {
 
 .titlepic {
-display:none;
+display:none !important;
 }
 
 #sidebar {
@@ -503,7 +503,7 @@ display:none;
 }
 
 body {
-  font-size: 15px;
+  font-size: 18px;
 }
 
   #bodyshell{
