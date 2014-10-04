@@ -438,6 +438,10 @@ li p {
 display:none;
 }
 
+#sidebar {
+  display:none;
+}
+
   body {
   font-size: 14px;
 }
@@ -492,6 +496,10 @@ display:none;
 
 .titlepic {
 display:none;
+}
+
+#sidebar {
+  display:none;
 }
 
 body {
