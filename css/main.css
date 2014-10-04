@@ -56,8 +56,8 @@
   src: url('../fonts/AdelleSans-SemiBold.ttf') format('truetype');
 }
 
-
-/* Move down content because we have a fixed navbar that is 50px tall */
+/*@media (min-device-width: 1025px) and (min-width: 1025px) {
+*//* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	padding-top: 0px;
 	padding-bottom: 20px;
@@ -404,19 +404,8 @@ filter: grayscale(50%);
 
 
 
-@media (max-device-width: 1400px), (max-width: 1400px) {
 
-body {
-  font-size: 16px;
-}
-
-/*.headertext {
-    font-size:.8em;
-  }
-
-}*/
-
-@media (max-device-width: 1000px), (max-width: 1000px) {
+@media (max-device-width: 1024px) and (min-device-width: 768px), (max-width: 1024px) and (min-width: 768px) {
 
 body {
   font-size: 14px;
@@ -441,9 +430,13 @@ li p {
       margin: 0 auto;
 
   }
+}
 
+@media (max-device-width: 767px) and (min-device-width: 408px), (max-width: 767px) and (min-width: 408px) {
 
-@media (max-device-width: 767px), (max-width: 767px) {
+.titlepic {
+display:none;
+}
 
   body {
   font-size: 14px;
@@ -475,13 +468,13 @@ li p {
   }
 
   .col-xs-9 {
-    width: 100%;
+    width: 85%;
     left:0;
       margin: 0 auto;
 
   }
   .col-sm-9 {
-    width: 100%;
+    width: 85%;
     left:0;
       margin: 0 auto;
 
@@ -495,11 +488,22 @@ li p {
 
 }
 
-@media (max-device-width: 407px), (max-width: 407px) {
+@media (max-device-width: 407px), (max-width: 407px)  {
+
+.titlepic {
+display:none;
+}
 
 body {
   font-size: 12px;
 }
+
+  #bodyshell{
+    position:absolute;
+    margin: 0px;
+    padding:0;
+  }
+
 
 /*.headertitle {
   font-size: 2em;
